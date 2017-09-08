@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>Select Grade</h2>
+    <form method="post" action="/">
+    <select id="select" name="select" >
+        <option value="allGrades">All grades</option>
+    	<% grades.forEach(function(grade){ %>
+    	<option value=<%=grade.grade%>><%= grade.grade %></option>
+  		<% }); %>
+    </select>
+    <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

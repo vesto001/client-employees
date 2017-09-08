@@ -1,0 +1,15 @@
+{
+  "name": "employee-details-client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.2.6",
+    "json2excel": "^1.2.0",
+    "node-rest-client": "^3.1.0",
+    "nodemailer": "^4.1.0"
+  }
+}
